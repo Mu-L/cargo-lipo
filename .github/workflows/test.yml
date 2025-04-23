@@ -5,7 +5,7 @@ on:
     branches: master
   pull_request:
   schedule:
-    - cron: '21 3 ? * 6'
+    - cron: '21 3 4 * *'
 
 jobs:
   check:
